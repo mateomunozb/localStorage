@@ -1,0 +1,126 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.elements {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  padding: 20px;
+  width: 400px;
+}
+
+.form label {
+  display: flex;
+  font-weight: bold;
+  padding: 3px 0;
+  width: 100%;
+}
+
+.form textarea {
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 3px;
+}
+
+.form button {
+  background-color: #00acee;
+  padding: 8px 40px;
+  margin: 10px 0;
+  border-color: #00acee;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1;
+  width: 100%;
+}
+
+.list {
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.list h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.prueba {
+  height: auto;
+  margin: 0;
+  padding-bottom: 15px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  word-wrap: break-word;
+}
+
+.prueba p {
+  padding-left: 5px;
+  padding-right: 15px;
+  text-align: justify;
+  margin: 0;
+  width: 100%;
+}
+
+.prueba .fa-trash-alt {
+  display: flex;
+  align-items: center;
+}
+
+.tweetList {
+  list-style-type: none;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.listElement {
+  display: inline-flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+/* p {
+  max-width: 100%;
+  text-align: left;
+} */
+
+.container h1 {
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 992px) {
+  .elements {
+    flex-direction: row;
+    width: 992px;
+  }
+
+  .container {
+    width: 992px;
+  }
+}
